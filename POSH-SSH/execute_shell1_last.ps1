@@ -1,9 +1,5 @@
-﻿[CmdletBinding()]
-param(
-    [parameter(position=0)]
-    [string]$cloud,
-)
-
+﻿Write-Host "Please Enter your parameter to ping"
+$cloud=Read-Host
 
 #connect to controller
 
